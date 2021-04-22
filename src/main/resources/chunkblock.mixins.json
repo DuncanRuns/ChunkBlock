@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.duncanruns.chunkblock.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["SurfaceChunkGeneratorMixin","MultiNoiseBiomeSourceMixin","TntEntityMixin","CommandManagerMixin"],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

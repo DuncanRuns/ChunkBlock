@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkblock",
+  "version": "${version}",
+  "name": "ChunkBlock",
+  "description": "Every chunk contains only one block.",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chunkblock/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.chunkblock.ChunkBlock"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "chunkblock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3"
+  }
+}

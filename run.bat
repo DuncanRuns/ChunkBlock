@@ -1,0 +1,2 @@
+./gradlew genSources
+./gradlew idea
